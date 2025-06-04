@@ -1,0 +1,9 @@
+/env/
+**/migrations/
+!**/migrations/__init__.py
+*.pyc
+*.log
+*.tmp
+*.bak
+*.env
+__pycache__/
