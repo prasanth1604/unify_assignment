@@ -97,7 +97,10 @@ function App() {
       <button onClick={fetchMyClasses}>Show My Classes</button>
       <ul>
         {myClasses.map((cname, idx) => (
-          <li key={idx}>{cname}</li>
+          <>
+          <li key={cname.id}>{cname.name}</li>
+            with {cname.Instructor} at {new Date(cname.time).toLocaleString()} 
+          </>
         ))}
       </ul>
     </div>
