@@ -48,11 +48,12 @@ Example url: /bookings/rohith@gmail.com
 open terminal and type
 
 ```
-git clone https://github.com/prasanth1604/cult_fit_Omnify.git
+git clone https://github.com/prasanth1604/cult_assignment.git
 ```
-```
-cd cult_fit_omnify
-```
+#### Creating virtual environment is highly recommended. Follow steps from the link given below
+#### https://docs.python.org/3/library/venv.html#creating-virtual-environments
+
+#### Now, Navigate to the project folder
 
 #### Requirements
 
@@ -83,7 +84,7 @@ python manage.py runserver
 
 
 
-## Frontend( React )
+## Frontend( React ) --> For better user experience
 
 #### Installing
 
